@@ -1,13 +1,15 @@
-namespace GameTOP
+using GameTOP.Interface;
+
+namespace GameTOP.Lib
 {
    public class Player1 : iPlayer
     {
-        public string _Name { get; set; }
-
-        public Player1(string Name)
+        public Player1(string _Name) 
         {
-            this._Name = Name;
+            this._Name = _Name;
+               
         }
+        public string _Name { get; set; }
 
         public string kick()
         {

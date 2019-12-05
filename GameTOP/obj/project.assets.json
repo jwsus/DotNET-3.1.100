@@ -207,6 +207,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "GameTOP.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GameTOP.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTOP.Interface.dll": {}
+        }
+      },
+      "GameTOP.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GameTOP.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameTOP.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTOP.Lib.dll": {}
+        }
       }
     }
   },
@@ -678,10 +701,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "GameTOP.Interface/1.0.0": {
+      "type": "project",
+      "path": "../GameTOP.Interface/GameTOP.Interface.csproj",
+      "msbuildProject": "../GameTOP.Interface/GameTOP.Interface.csproj"
+    },
+    "GameTOP.Lib/1.0.0": {
+      "type": "project",
+      "path": "../GameTOP.Lib/GameTOP.Lib.csproj",
+      "msbuildProject": "../GameTOP.Lib/GameTOP.Lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "GameTOP.Interface >= 1.0.0",
+      "GameTOP.Lib >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -692,11 +727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP\\GameTOP.csproj",
+      "projectUniqueName": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP\\GameTOP.csproj",
       "projectName": "GameTOP",
-      "projectPath": "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP\\GameTOP.csproj",
+      "projectPath": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP\\GameTOP.csproj",
       "packagesPath": "C:\\Users\\PROG1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP\\obj\\",
+      "outputPath": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -714,7 +749,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Interface\\GameTOP.Interface.csproj": {
+              "projectPath": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Interface\\GameTOP.Interface.csproj"
+            },
+            "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Lib\\GameTOP.Lib.csproj": {
+              "projectPath": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Lib\\GameTOP.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

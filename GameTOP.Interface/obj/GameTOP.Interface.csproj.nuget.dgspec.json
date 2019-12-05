@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP.Interface\\GameTOP.Interface.csproj": {}
+    "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Interface\\GameTOP.Interface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP.Interface\\GameTOP.Interface.csproj": {
+    "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Interface\\GameTOP.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP.Interface\\GameTOP.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Interface\\GameTOP.Interface.csproj",
         "projectName": "GameTOP.Interface",
-        "projectPath": "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP.Interface\\GameTOP.Interface.csproj",
+        "projectPath": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Interface\\GameTOP.Interface.csproj",
         "packagesPath": "C:\\Users\\PROG1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROG1\\Desktop\\dotnet\\ProAgil-\\GameTOP.Interface\\obj\\",
+        "outputPath": "C:\\Users\\PROG1\\Desktop\\dot\\DotNET-3.1.100\\GameTOP.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

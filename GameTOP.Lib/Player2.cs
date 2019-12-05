@@ -1,4 +1,6 @@
-namespace GameTOP
+using GameTOP.Interface;
+
+namespace GameTOP.Lib
 {
     public class Player2 : iPlayer
     {
